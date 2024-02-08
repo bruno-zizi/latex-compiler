@@ -1,0 +1,9 @@
+services:
+
+
+  pdflatex:
+    build:
+      context: .
+      target: pdflatex
+    volumes:
+      - ./out:/data/out
